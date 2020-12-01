@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+page{
+  height: 100%;
+  background-color: #C0C0C0;
+}
+.row_class{
+  border-radius: 3px;
+}
+.van-cell{
+  border-radius: 3px;
+  margin: 2%;
+}
+.myText{
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 20%;
+}
+.myHead{
+  width: 80%;
+  display:flex;
+  background-color:transparent;
+  margin-bottom: 5%;
+}

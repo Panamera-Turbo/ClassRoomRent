@@ -1,0 +1,42 @@
+<van-steps steps="{{ steps }}" active="{{ active }}" />
+
+    <van-field
+      model:value="{{ applyname }}"
+      label="申请人"
+      placeholder="请输入姓名"
+      left-icon="user-o"
+    />
+    <van-field
+    model:value="{{ phone }}"
+    label="联系方式"
+    placeholder="请输入手机号"
+    left-icon="phone-o"
+    border="{{ false }}"
+    />
+<van-cell icon="video-o" title="是否使用多媒体"  clickable  bind:click="onMedia">
+  <van-checkbox
+        model:value="{{use_media}}"
+        catch:tap="onMedia"
+        model:name="{{mesMedia}}"
+        class="ckbox"
+        checked-color="#07c160"
+      />
+</van-cell>
+  <van-field
+      model:value="{{ beizhu }}"
+      label="借用原因"
+      type="textarea"
+      placeholder="请输入申请原因"
+      autosize
+      left-icon="orders-o"
+      border="{{ false }}"
+  />
+<van-button 
+loading="{{loading}}" 
+loading-type="circular"
+loading-text="提交中..." 
+type="primary" 
+block 
+bind:click="click"
+>提交申请</van-button>
+<van-toast id="van-toast" />

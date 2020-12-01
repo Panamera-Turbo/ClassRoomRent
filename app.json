@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/book/book",
+    "pages/booked/booked"
+  ],
+  "entryPagePath": "pages/logs/logs",
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "预约教室",
+    "navigationBarTextStyle": "black"
+  },
+  "subpackages": [
+    {
+      "root": "RentPages",
+      "name": "packageForRent",
+      "pages": [ 
+        "ThirdRent/ThirdRent",
+        "SecRent/SecRent",
+        "FirstRent/FirstRent"
+      ]
+    }
+  ],
+  "usingComponents": {
+    "van-field": "@vant/weapp/field/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-toast": "@vant/weapp/toast/index",
+    "van-steps": "@vant/weapp/steps/index",
+    "van-tag": "@vant/weapp/tag/index",
+    "van-checkbox": "@vant/weapp/checkbox/index"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/book/book",
+        "text": "预约",
+        "iconPath": "Pic/icon/book.png",
+        "selectedIconPath": "Pic/icon/bookSel.png"
+      },
+      {
+        "pagePath": "pages/booked/booked",
+        "text": "我的",
+        "iconPath": "Pic/icon/booked.png",
+        "selectedIconPath": "Pic/icon/bookedSel.png"
+      }
+    ],
+    "selectedColor": "#07C160"
+  },
+  "sitemapLocation": "sitemap.json"
+}

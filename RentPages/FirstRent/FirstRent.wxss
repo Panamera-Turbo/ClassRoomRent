@@ -1,0 +1,7 @@
+/* content/FirstRent/FirstRent.wxss */
+.MyCard{
+  padding: 0%;
+  border-radius: 3%;
+  margin: 3%;
+  background-color: darkgreen;
+}

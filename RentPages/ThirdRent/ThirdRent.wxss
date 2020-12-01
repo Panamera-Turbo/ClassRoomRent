@@ -1,0 +1,6 @@
+.ckbox{
+  float: right;
+}
+.van-button{
+  margin-top: 50%;
+}

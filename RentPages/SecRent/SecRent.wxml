@@ -1,0 +1,13 @@
+<view class="container">
+  <van-steps steps="{{ steps }}" active="{{ active }}" />
+  <view wx:for="{{currentLeft.List}}" wx:for-index="bindex" wx:key="index" >
+    <view class="MyCard" data-bindex="{{bindex}}"  bindtap="selTime">
+      <van-cell value="可预约" is-link > 
+        <view slot="title">
+          <view class="van-cell-text">{{title}}</view>
+          <van-tag type="danger">{{item.discr}}</van-tag>
+        </view>
+      </van-cell>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+
+<van-toast id="van-toast" />
+<view class="container">
+<view class="myHead">
+  <van-icon slot="icon" size="30px" name="records"></van-icon>
+  <view slot="title" >
+    <view class="myText">密码登录</view>
+  </view>
+</view>
+  
+  <van-row class="login">
+    <van-col span="20" offset="2">
+        <van-field
+          model:value="{{ userId }}"
+          left-icon="manager-o" 
+          clearable
+          label="用户名"
+          placeholder="请输入用户名"
+          auto-focus
+          autosize
+        />
+    </van-col>
+    <van-col span="20" offset="2">
+        <van-field
+          model:value="{{ password }}"
+          type="password"
+          label="密码"
+          placeholder="请输入密码"
+          left-icon="question-o"
+          auto-focus
+          border="{{ false }}"
+          autosize
+        />
+    </van-col>
+    <van-col span="20" offset="2">
+      <van-button loading="{{loading}}" loading-type="circular" loading-text="加载中..." type="primary" block bind:click="click">{{status}}</van-button>
+    </van-col>
+  </van-row>
+</view>

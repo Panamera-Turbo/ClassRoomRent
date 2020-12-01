@@ -1,0 +1,11 @@
+/* pages/booked/booked.js.wxss */
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+}
+page{
+  height: 100%;
+}

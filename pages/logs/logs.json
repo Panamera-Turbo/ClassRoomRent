@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "教室预约系统",
+    "usingComponents": {
+      "van-image": "@vant/weapp/image/index",
+      "van-field": "@vant/weapp/field/index",
+      "van-icon": "@vant/weapp/icon/index",
+      "van-row": "@vant/weapp/row/index",
+      "van-col": "@vant/weapp/col/index",
+      "van-button": "@vant/weapp/button/index",
+      "van-image": "@vant/weapp/image/index",
+      "van-cell": "@vant/weapp/cell/index",
+      "van-cell-group": "@vant/weapp/cell-group/index",
+      "van-popup": "@vant/weapp/popup/index"
+  }
+}

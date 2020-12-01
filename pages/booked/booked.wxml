@@ -1,0 +1,9 @@
+
+  <view wx:for="{{booked.List}}" wx:for-index="bindex" wx:key="index" >
+    <van-cell  icon="{{item.icon}}" label="{{item.date}} {{item.time}}" >
+      <view slot="title">
+        <view class="van-cell-text">{{item.discr}}</view>
+        <van-tag type="{{item.status}}">{{item.text}}</van-tag>
+      </view>
+    </van-cell>
+  </view>

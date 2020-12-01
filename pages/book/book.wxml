@@ -1,0 +1,41 @@
+<van-notice-bar
+  color="#1989fa"
+  background="#ecf9ff"
+  left-icon="info-o"
+  text="请至少提前两天预约教室"
+  scrollable="{{ false }}"
+/>
+<view class="container">
+  <view class="myHead">
+  <van-icon slot="icon" size="30px" name="records"></van-icon>
+  <view slot="title" >
+    <view class="myText">密码登录</view>
+  </view>
+</view>
+  <van-row custom-class="row_class">
+    <van-col span="20" offset="2" style="margin:5px" class="row_class">
+      <van-cell 
+      icon="wap-home-o" 
+      title="主楼 134" 
+      value="预约"
+      size="large" 
+      link-type="navigateTo"
+      url="/RentPages/FirstRent/FirstRent"
+      bind:click="rentFirst"
+      is-link  />
+    </van-col>
+    <van-col span="20" offset="2" class="row_class">
+      <van-cell 
+      icon="wap-home-o" 
+      title="新村活动室" 
+      value="预约" 
+      size="large" 
+      link-type="navigateTo"
+      url="/RentPages/FirstRent/FirstRent"
+      bind:click="rentSecond"
+      is-link  />
+    </van-col>
+  </van-row>
+</view>
+
+

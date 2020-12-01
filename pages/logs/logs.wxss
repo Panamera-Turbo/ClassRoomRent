@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+page{
+  height: 100%;
+  background-color: #C0C0C0;
+}
+.van-cell{
+  border-radius: 3px;
+  margin:2%;
+}
+.van-button{
+  border-radius: 3px;
+  margin: 2%;
+  margin-top: 5%;
+}
+.myText{
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  margin-left: 20%;
+}
+.myHead{
+  width: 80%;
+  display:flex;
+  background-color:transparent;
+  margin-bottom: 5%;
+}

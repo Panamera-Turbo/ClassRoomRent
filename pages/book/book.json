@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "教室预约",
+  "usingComponents": {
+    "van-notice-bar": "@vant/weapp/notice-bar/index"
+  }
+}
