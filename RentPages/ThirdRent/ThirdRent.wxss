@@ -2,5 +2,5 @@
   float: right;
 }
 .van-button{
-  margin-top: 50%;
+  margin-top: 10%;
 }

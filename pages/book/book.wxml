@@ -6,14 +6,16 @@
   scrollable="{{ false }}"
 />
 <view class="container">
-  <view class="myHead">
-  <van-icon slot="icon" size="30px" name="records"></van-icon>
-  <view slot="title" >
-    <view class="myText">密码登录</view>
-  </view>
-</view>
+  
   <van-row custom-class="row_class">
-    <van-col span="20" offset="2" style="margin:5px" class="row_class">
+    <van-col span="20" offset="2" >
+      <van-cell 
+      title="选择教室" 
+      size="large" 
+      class="myHead"
+      />
+    </van-col>
+    <van-col span="20" offset="2" >
       <van-cell 
       icon="wap-home-o" 
       title="主楼 134" 
@@ -24,7 +26,7 @@
       bind:click="rentFirst"
       is-link  />
     </van-col>
-    <van-col span="20" offset="2" class="row_class">
+    <van-col span="20" offset="2" >
       <van-cell 
       icon="wap-home-o" 
       title="新村活动室" 

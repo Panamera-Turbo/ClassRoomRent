@@ -30,12 +30,12 @@ Page({
   },
   click() {
     let that = this.data;
-    if (pankong(that.beizhu)) { 
-      Toast("请填写原因")
-    }else if(pankong(that.applyname)){
+    if (pankong(that.applyname)) { 
       Toast("请填写姓名")
     }else if(pankong(that.phone)){
-      Toast("请填写手机")
+      Toast("请填写联系方式")
+    }else if(pankong(that.beizhu)){
+      Toast("请填写申请原因")
     }else if( !(/^1[3456789]\d{9}$/.test(that.phone)) ) {
       Toast("请检查手机格式")
     }else{
